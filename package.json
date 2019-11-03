@@ -1,0 +1,19 @@
+{
+  "name": "ssrDemo",
+  "version": "1.0.0",
+  "description": "My impressive Nuxt.js project",
+  "author": "ttatsato",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2"
+  },
+  "devDependencies": {}
+}
